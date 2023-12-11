@@ -1,0 +1,13 @@
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Community for NL Design System
+ */
+
+.kernteam-avatar {
+  background-color: var(--kernteam-avatar-background-color);
+  border-radius: var(--kernteam-avatar-border-radius);
+}
+
+.kernteam-avatar > .kernteam-avatar__icon {
+  color: var(--kernteam-avatar-color);
+}
