@@ -1,11 +1,11 @@
 /* @license CC0-1.0 */
 
-import readme from '@example/components-css/button/README.md?raw';
-import { ExampleButton } from '@example/web-components-react';
+import readme from '@kernteam/components-css/button/README.md?raw';
+import { KernteamButton } from '@kernteam/web-components-react';
 import type { Meta, StoryObj } from '@storybook/react';
 import { PropsWithChildren } from 'react';
 
-const Button = ({ children }: PropsWithChildren<{}>) => <ExampleButton>{children}</ExampleButton>;
+const Button = ({ children }: PropsWithChildren<{}>) => <KernteamButton>{children}</KernteamButton>;
 
 const meta = {
   title: 'Web Component/Button',
@@ -40,5 +40,5 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
-  name: 'Example button',
+  name: 'kernteam button',
 };

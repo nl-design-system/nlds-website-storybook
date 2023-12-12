@@ -1,6 +1,6 @@
-import '@example/design-tokens/dist/index.css';
-import '@example/font/src/index.scss';
-import { defineCustomElements } from '@example/web-components-stencil/loader/index.js';
+import '@nl-design-system-unstable/voorbeeld-design-tokens/src/font.js';
+import '@nl-design-system-unstable/voorbeeld-design-tokens/src/index.scss';
+import { defineCustomElements } from '@kernteam/web-components-stencil/loader/index.js';
 import type { Preview, StoryContext } from '@storybook/react';
 
 defineCustomElements();
@@ -15,7 +15,7 @@ const preview: Preview = {
       storyContext.parameters['args'] = storyContext.args;
 
       return (
-        <div className="example-theme">
+        <div className="voorbeeld-theme">
           <Story />
         </div>
       );
