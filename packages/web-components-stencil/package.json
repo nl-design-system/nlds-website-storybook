@@ -3,7 +3,7 @@
   "author": "Community for NL Design System",
   "description": "Stencil web components bundle based on the NL Design System architecture",
   "license": "EUPL-1.2",
-  "name": "@example/web-components-stencil",
+  "name": "@kernteam/web-components-stencil",
   "keywords": [
     "nl-design-system"
   ],
