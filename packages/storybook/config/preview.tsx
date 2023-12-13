@@ -1,5 +1,5 @@
-import '@nl-design-system-unstable/voorbeeld-design-tokens/src/font.js';
-import '@nl-design-system-unstable/voorbeeld-design-tokens/src/index.scss';
+// import '@nl-design-system-unstable/voorbeeld-design-tokens/src/font.js';
+import '@nl-design-system-unstable/voorbeeld-design-tokens/dist/index.css';
 import { defineCustomElements } from '@kernteam/web-components-stencil/loader/index.js';
 import type { Preview, StoryContext } from '@storybook/react';
 
