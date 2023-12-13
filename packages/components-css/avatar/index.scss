@@ -3,11 +3,55 @@
  * Copyright (c) 2021 Community for NL Design System
  */
 
-.kernteam-avatar {
-  background-color: var(--kernteam-avatar-background-color);
-  border-radius: var(--kernteam-avatar-border-radius);
+ .kernteam-avatar--square {
+  // background-color: var(--kernteam-avatar-background-color);
+  // border-radius: var(--kernteam-avatar-border-radius);
+  background-color: red;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kernteam-avatar--circle {
+  // background-color: var(--kernteam-avatar-background-color);
+  // border-radius: var(--kernteam-avatar-border-radius);
+  background-color: red;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kernteam-avatar--rounded {
+  // background-color: var(--kernteam-avatar-background-color);
+  // border-radius: var(--kernteam-avatar-border-radius);
+  background-color: red;
+  width: 38px;
+  height: 38px;
+  border-radius: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kernteam-avatar__image {
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+}
+
+.kernteam-avatar__icon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .kernteam-avatar > .kernteam-avatar__icon {
-  color: var(--kernteam-avatar-color);
+  // color: var(--kernteam-avatar-color);
+  color: white;
 }
