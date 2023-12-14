@@ -1,44 +1,43 @@
 /* @license CC0-1.0 */
 
-import readme from '@kernteam/components-css/button/README.md?raw';
-import { KernteamButton } from '@kernteam/web-components-react';
 import type { Meta, StoryObj } from '@storybook/react';
-import { PropsWithChildren } from 'react';
-
-const Button = ({ children }: PropsWithChildren<{}>) => <KernteamButton>{children}</KernteamButton>;
+import {
+  UtrechtDocument,
+  UtrechtHeading1,
+  UtrechtHeading2,
+  UtrechtPage,
+  UtrechtPageContent,
+  UtrechtParagraph,
+} from '@utrecht/web-component-library-react';
 
 const meta = {
-  title: 'nldesignsystem.nl/template',
+  title: 'Templates/Richtlijnen/Kleuren',
   id: 'kleuren/template',
-  component: Button,
-  argTypes: {
-    children: {
-      name: 'Content',
-      description: 'nldesignsystem.nl kleuren template',
-      type: {
-        name: 'string',
-        required: true,
-      },
-      defaultValue: '',
-    },
-  },
-  args: {
-    children: 'Opslaan en verder',
-  },
-  tags: ['autodocs'],
   parameters: {
     docs: {
-      description: {
-        component: readme,
-      },
+      autodocs: false,
     },
   },
-} satisfies Meta<typeof Button>;
+} satisfies Meta;
 
-export default meta;
-
-type Story = StoryObj<typeof meta>;
-
-export const Default: Story = {
-  name: 'kernteam button',
+export const Kleuren: StoryObj<typeof meta> = {
+  render: () => (
+    <UtrechtPage>
+      <UtrechtPageContent>
+        <UtrechtDocument>
+          <UtrechtHeading1>Kleuren</UtrechtHeading1>
+          <UtrechtParagraph>
+            Kleuren zijn een belangrijk onderdeel van een ontwerp. Ze zorgen voor een visuele toon en helpen bij het
+            overbrengen van functie en betekenis.
+          </UtrechtParagraph>
+          <UtrechtParagraph>
+            Echter wordt kleur niet door iedereen op dezelfde manier ervaren. Daarom hebben kleuren een ondersteunende
+            en geen essentiële rol.
+          </UtrechtParagraph>
+          <UtrechtHeading2>Contrast</UtrechtHeading2>
+        </UtrechtDocument>
+      </UtrechtPageContent>
+    </UtrechtPage>
+  ),
 };
+export default meta;
