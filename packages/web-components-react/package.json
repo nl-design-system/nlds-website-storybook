@@ -28,7 +28,7 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@example/web-components-stencil": "workspace:*",
+    "@kernteam/web-components-stencil": "workspace:*",
     "@types/node": "20.10.1",
     "@types/react": "18.2.39",
     "@types/react-dom": "18.2.17",
