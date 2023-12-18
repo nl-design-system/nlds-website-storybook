@@ -1,10 +1,10 @@
 /* @license CC0-1.0 */
 
-import readme from '@example/components-css/avatar/README.md?raw';
+import readme from '@kernteam/components-css/avatar/README.md?raw';
 import type { Meta, StoryObj } from '@storybook/react';
 import { IconBuilding, IconUser } from '@tabler/icons-react';
 import { CSSProperties, PropsWithChildren } from 'react';
-import '@example/components-css/avatar/index.scss';
+import '@kernteam/components-css/avatar/index.scss';
 
 interface AvatarProps {
   borderRadius?: string;

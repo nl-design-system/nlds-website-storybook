@@ -1,7 +1,7 @@
 /* eslint-env node */
 // import '@kernteam/design-tokens/dist/index.css';
 // import '@kernteam/font/src/index.scss';
-import { defineCustomElements } from '@example/web-components-stencil/loader/index.js';
+import { defineCustomElements } from '@kernteam/web-components-stencil/loader/index.js';
 import type { Preview, StoryContext } from '@storybook/react';
 import prettierBabel from 'prettier/parser-babel';
 import prettier from 'prettier/standalone';
