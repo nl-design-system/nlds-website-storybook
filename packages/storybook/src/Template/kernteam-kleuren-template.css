@@ -1,0 +1,6 @@
+.voorbeeld-theme {
+  --utrecht-page-content-padding-block-start: 16px;
+  --utrecht-page-content-padding-block-end: 32px;
+  --utrecht-page-padding-inline-start: 32px;
+  --utrecht-page-padding-inline-end: 32px;
+}
