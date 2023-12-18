@@ -25,7 +25,7 @@ const Avatar = ({
   children,
 }: PropsWithChildren<AvatarProps>) => {
   return (
-    <div
+    <button
       className="kernteam-avatar"
       style={
         {
@@ -44,7 +44,7 @@ const Avatar = ({
       ) : (
         <IconBuilding className="kernteam-avatar__icon" />
       )}
-    </div>
+    </button>
   );
 };
 
