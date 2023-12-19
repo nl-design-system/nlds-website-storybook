@@ -28,6 +28,7 @@
     "@kernteam/components-css": "workspace:*",
     "@kernteam/design-tokens": "workspace:*",
     "@kernteam/font": "workspace:*",
+    "@kernteam/components-react": "workspace:*",
     "@kernteam/web-components-react": "workspace:*",
     "@kernteam/web-components-stencil": "workspace:*",
     "@nl-design-system-unstable/nlds-design-tokens": "1.0.0-alpha.67",

@@ -1,50 +1,27 @@
 /* @license CC0-1.0 */
 
 import readme from '@kernteam/components-css/avatar/README.md?raw';
+import { AvatarProps } from '@kernteam/components-react/src/Avatar';
 import type { Meta, StoryObj } from '@storybook/react';
-import { IconBuilding, IconUser } from '@tabler/icons-react';
-import { CSSProperties, PropsWithChildren } from 'react';
+import { PropsWithChildren } from 'react';
 import '@kernteam/components-css/avatar/index.scss';
 
-interface AvatarProps {
+interface AvatarDemoProps extends AvatarProps {
   borderRadius?: string;
   backgroundColor?: string;
   color?: string;
-  imageSrc?: string;
-  altText?: string;
-  privateProfile?: boolean;
 }
 
-const Avatar = ({
-  borderRadius,
-  backgroundColor,
-  color,
-  imageSrc,
-  altText,
-  privateProfile,
-  children,
-}: PropsWithChildren<AvatarProps>) => {
+const Avatar = ({ borderRadius, backgroundColor, color, ...restProps }: PropsWithChildren<AvatarDemoProps>) => {
   return (
-    <button
-      className="kernteam-avatar"
-      style={
-        {
-          '--kernteam-avatar-border-radius': borderRadius,
-          '--kernteam-avatar-background-color': backgroundColor,
-          '--kernteam-avatar-color': color,
-        } as CSSProperties
-      }
-    >
-      {imageSrc ? (
-        <img src={imageSrc} alt={altText} className="kernteam-avatar__image" />
-      ) : children ? (
-        children
-      ) : privateProfile ? (
-        <IconUser className="kernteam-avatar__icon" />
-      ) : (
-        <IconBuilding className="kernteam-avatar__icon" />
-      )}
-    </button>
+    <Avatar
+      style={{
+        '--kernteam-avatar-border-radius': borderRadius,
+        '--kernteam-avatar-background-color': backgroundColor,
+        '--kernteam-avatar-color': color,
+      }}
+      {...restProps}
+    />
   );
 };
 

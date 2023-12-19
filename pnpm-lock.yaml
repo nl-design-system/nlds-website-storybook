@@ -271,6 +271,9 @@ importers:
       '@kernteam/components-css':
         specifier: workspace:*
         version: link:../components-css
+      '@kernteam/components-react':
+        specifier: workspace:*
+        version: link:../components-react
       '@kernteam/design-tokens':
         specifier: workspace:*
         version: link:../../proprietary/design-tokens
