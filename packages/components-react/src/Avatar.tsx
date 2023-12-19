@@ -1,4 +1,5 @@
 import { IconBuilding, IconUser } from '@tabler/icons-react';
+import * as clsx from 'clsx';
 import { HTMLAttributes, PropsWithChildren } from 'react';
 import * as React from 'react';
 
@@ -7,9 +8,16 @@ export interface AvatarProps extends HTMLAttributes<HTMLButtonElement> {
   altText?: string;
   privateProfile?: boolean;
 }
-export const Avatar = ({ children, imageSrc, altText, privateProfile, ...props }: PropsWithChildren<AvatarProps>) => {
+export const Avatar = ({
+  children,
+  className,
+  imageSrc,
+  altText,
+  privateProfile,
+  ...props
+}: PropsWithChildren<AvatarProps>) => {
   return (
-    <button className={'kernteam-avatar'} {...props}>
+    <button className={clsx('kernteam-avatar', className)} {...props}>
       {imageSrc ? (
         <img src={imageSrc} alt={altText} className="kernteam-avatar__image" />
       ) : children ? (

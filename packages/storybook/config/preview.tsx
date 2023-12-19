@@ -5,7 +5,7 @@ import { defineCustomElements } from '@kernteam/web-components-stencil/loader/in
 import type { Preview, StoryContext } from '@storybook/react';
 import prettierBabel from 'prettier/parser-babel';
 import prettier from 'prettier/standalone';
-import * as ReactDOMServer from 'react-dom/server';
+import ReactDOMServer from 'react-dom/server';
 
 defineCustomElements();
 
