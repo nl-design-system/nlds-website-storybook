@@ -1,31 +1,15 @@
 import { IconBuilding, IconUser } from '@tabler/icons-react';
-import React, { CSSProperties, HTMLAttributes } from 'react';
+import { HTMLAttributes, PropsWithChildren } from 'react';
+import * as React from 'react';
 
-interface AvatarProps extends HTMLAttributes<HTMLButtonElement> {
-  borderRadius?: string;
-  backgroundColor?: string;
-  color?: string;
+export interface AvatarProps extends HTMLAttributes<HTMLButtonElement> {
   imageSrc?: string;
   altText?: string;
   privateProfile?: boolean;
 }
-export const Avatar = ({
-  children,
-  imageSrc,
-  privateProfile,
-  altText,
-  borderRadius,
-  backgroundColor,
-  color,
-  ...props
-}: AvatarProps) => {
-  const avatarStyle: CSSProperties = {
-    borderRadius: borderRadius,
-    backgroundColor: backgroundColor,
-    color: color,
-  };
+export const Avatar = ({ children, imageSrc, altText, privateProfile, ...props }: PropsWithChildren<AvatarProps>) => {
   return (
-    <button className={'kernteam-avatar'} style={avatarStyle} {...props}>
+    <button className={'kernteam-avatar'} {...props}>
       {imageSrc ? (
         <img src={imageSrc} alt={altText} className="kernteam-avatar__image" />
       ) : children ? (
