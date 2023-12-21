@@ -1,5 +1,5 @@
+import { Button } from '@kernteam/components-react/src/Button';
 import { Meta, StoryObj } from '@storybook/react';
-import { Button } from '../../components-react/src/Button';
 
 const meta = {
   title: 'React Component/Button',
