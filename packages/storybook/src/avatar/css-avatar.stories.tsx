@@ -1,7 +1,7 @@
 /* @license CC0-1.0 */
 
 import readme from '@kernteam/components-css/avatar/README.md?raw';
-import { AvatarProps } from '@kernteam/components-react/src/Avatar';
+import { Avatar, AvatarProps } from '@kernteam/components-react/src/Avatar';
 import type { Meta, StoryObj } from '@storybook/react';
 import { PropsWithChildren } from 'react';
 import '@kernteam/components-css/avatar/index.scss';
@@ -12,7 +12,7 @@ interface AvatarDemoProps extends AvatarProps {
   color?: string;
 }
 
-const Avatar = ({ borderRadius, backgroundColor, color, ...restProps }: PropsWithChildren<AvatarDemoProps>) => {
+const AvatarDemo = ({ borderRadius, backgroundColor, color, ...restProps }: PropsWithChildren<AvatarDemoProps>) => {
   return (
     <Avatar
       style={{
@@ -28,7 +28,7 @@ const Avatar = ({ borderRadius, backgroundColor, color, ...restProps }: PropsWit
 const meta = {
   title: 'CSS Component/Avatar',
   id: 'css-avatar',
-  component: Avatar,
+  component: AvatarDemo,
   argTypes: {
     children: {
       name: 'initials',
@@ -122,7 +122,7 @@ const meta = {
       },
     },
   },
-} satisfies Meta<typeof Avatar>;
+} satisfies Meta<typeof AvatarDemo>;
 
 export default meta;
 
