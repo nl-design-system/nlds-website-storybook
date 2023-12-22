@@ -5,7 +5,6 @@
 
 import { Component, h, Prop } from '@stencil/core';
 import { IconBuilding, IconUser } from '@tabler/icons';
-import clsx from 'clsx';
 
 @Component({
   tag: 'kernteam-avatar',
@@ -13,15 +12,14 @@ import clsx from 'clsx';
   shadow: true,
 })
 export class Avatar {
-  @Prop() initials: string;
-  @Prop() imageSrc: string;
-  @Prop() altText: string;
-  @Prop() privateProfile: boolean;
-  @Prop() className: string;
+  @Prop() initials: string = '';
+  @Prop() imageSrc: string = '';
+  @Prop() altText: string = '';
+  @Prop() privateProfile: boolean = true;
   render() {
-    const { initials, imageSrc, altText, privateProfile, className } = this;
+    const { initials, imageSrc, altText, privateProfile } = this;
     return (
-      <div class={clsx('kernteam-avatar', className)}>
+      <div class="kernteam-avatar">
         {imageSrc ? (
           <img src={imageSrc} alt={altText} class="kernteam-avatar__image" />
         ) : initials ? (
