@@ -11,6 +11,9 @@ importers:
       '@jest/globals':
         specifier: 29.7.0
         version: 29.7.0
+      clsx:
+        specifier: 2.0.0
+        version: 2.0.0
       http-server:
         specifier: 14.1.1
         version: 14.1.1
@@ -30,6 +33,9 @@ importers:
       '@types/node':
         specifier: 20.10.1
         version: 20.10.1
+      '@types/prettier':
+        specifier: 2.7.3
+        version: 2.7.3
       '@typescript-eslint/eslint-plugin':
         specifier: 6.13.1
         version: 6.13.1(@typescript-eslint/parser@6.13.1)(eslint@8.54.0)(typescript@5.3.2)
@@ -76,8 +82,8 @@ importers:
         specifier: 8.4.31
         version: 8.4.31
       prettier:
-        specifier: 3.1.0
-        version: 3.1.0
+        specifier: 2.8.8
+        version: 2.8.8
       stylelint:
         specifier: 15.11.0
         version: 15.11.0
@@ -184,6 +190,9 @@ importers:
       '@types/lodash.chunk':
         specifier: 4.2.9
         version: 4.2.9
+      '@types/prettier':
+        specifier: '2'
+        version: 2.7.3
       '@types/react':
         specifier: 18.2.39
         version: 18.2.39
@@ -252,6 +261,10 @@ importers:
         version: 1.0.2(vite@5.0.4)
 
   packages/storybook:
+    dependencies:
+      '@types/prettier':
+        specifier: '2'
+        version: 2.7.3
     devDependencies:
       '@babel/core':
         specifier: 7.23.5
@@ -433,6 +446,9 @@ importers:
       '@stencil/core':
         specifier: 4.8.0
         version: 4.8.0
+      '@tabler/icons':
+        specifier: 2.44.0
+        version: 2.44.0
     devDependencies:
       '@kernteam/components-css':
         specifier: workspace:*
@@ -5611,6 +5627,10 @@ packages:
   /@tabler/icons@2.42.0:
     resolution: {integrity: sha512-ynV4iaC1c1mUhuAr9HRaoq8KrWYmZ0bJEpOh7qTBE+OfdDsdvQUe+0S7FW+DHkJ4RuxQMdO8djrZK7HrUw9YMA==}
 
+  /@tabler/icons@2.44.0:
+    resolution: {integrity: sha512-WPPtihDcAwEm1QZM9MXQw6+r/R2/qx7KMU1eegsi9DsqBLAb0W2kbt6e/syvd6j9c+6XNpRVBW1ziGqSWQAWOg==}
+    dev: false
+
   /@testing-library/dom@9.3.3:
     resolution: {integrity: sha512-fB0R+fa3AUqbLHWyxXa2kGVtf1Fe1ZZFr0Zp6AIbIAzXb2mKbEXl+PCQNUOaq5lbTab5tfctfXRNsWXxa2f7Aw==}
     engines: {node: '>=14'}
@@ -6019,6 +6039,9 @@ packages:
   /@types/parse-json@4.0.0:
     resolution: {integrity: sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==}
     dev: true
+
+  /@types/prettier@2.7.3:
+    resolution: {integrity: sha512-+68kP9yzs4LMp7VNh8gdzMSPZFL44MLGqiHWvttYJe+6qnuVr4Ek9wSBQoveqY/r+LwjCcU29kNVkidwim+kYA==}
 
   /@types/pretty-hrtime@1.0.1:
     resolution: {integrity: sha512-VjID5MJb1eGKthz2qUerWT8+R4b9N+CHvGCzg9fn4kWZgaF9AhdYikQio3R7wV8YY1NsQKPaCwKz1Yff+aHNUQ==}
@@ -15244,12 +15267,6 @@ packages:
   /prettier@2.8.8:
     resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
-    hasBin: true
-    dev: true
-
-  /prettier@3.1.0:
-    resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
-    engines: {node: '>=14'}
     hasBin: true
     dev: true
 

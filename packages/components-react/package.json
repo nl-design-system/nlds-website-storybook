@@ -55,6 +55,7 @@
     "@types/date-fns": "2.6.0",
     "@types/jest": "29.5.10",
     "@types/lodash.chunk": "4.2.9",
+    "@types/prettier": "2",
     "@types/react": "18.2.39",
     "@types/testing-library__jest-dom": "5.14.9",
     "@vitejs/plugin-react": "4.2.0",

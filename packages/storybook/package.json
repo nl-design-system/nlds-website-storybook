@@ -26,9 +26,9 @@
     "@etchteam/storybook-addon-status": "4.2.4",
     "@kernteam/assets": "workspace:*",
     "@kernteam/components-css": "workspace:*",
+    "@kernteam/components-react": "workspace:*",
     "@kernteam/design-tokens": "workspace:*",
     "@kernteam/font": "workspace:*",
-    "@kernteam/components-react": "workspace:*",
     "@kernteam/web-components-react": "workspace:*",
     "@kernteam/web-components-stencil": "workspace:*",
     "@nl-design-system-unstable/nlds-design-tokens": "1.0.0-alpha.67",
@@ -68,5 +68,8 @@
     "vite-plugin-html": "3.2.0",
     "vite-plugin-markdown": "2.1.0",
     "webpack": "5.89.0"
+  },
+  "dependencies": {
+    "@types/prettier": "2"
   }
 }
