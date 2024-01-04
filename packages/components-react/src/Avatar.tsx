@@ -17,9 +17,10 @@ export const Avatar = ({ children, className, src, alt, privateProfile, ...props
       ) : privateProfile ? (
         <IconUser className="kernteam-avatar__text" />
       ) : (
-        <IconBuilding className="kernteam-avatar__text" /
-      </div>
-   );
+        <IconBuilding className="kernteam-avatar__text" />
+      )}
+    </div>
+  );
 };
 
 Avatar.displayName = 'Avatar';
