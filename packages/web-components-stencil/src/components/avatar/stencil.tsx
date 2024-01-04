@@ -23,7 +23,7 @@ export class Avatar {
         {imageSrc ? (
           <img src={imageSrc} alt={altText} class="kernteam-avatar__image" />
         ) : initials ? (
-          <slot name="initials">{initials}</slot>
+          <slot>{initials}</slot>
         ) : privateProfile ? (
           <IconUser className="kernteam-avatar__icon" />
         ) : (

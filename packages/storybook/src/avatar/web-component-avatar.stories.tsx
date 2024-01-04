@@ -71,7 +71,7 @@ const meta = {
         category: 'Design Tokens',
       },
     },
-    imageSrc: {
+    src: {
       name: 'avatar image',
       description: 'Set the image for avatar--image. If this value is set, any children will not be shown.',
       control: {
@@ -82,7 +82,7 @@ const meta = {
         category: 'Children',
       },
     },
-    altText: {
+    alt: {
       name: 'alt-text',
       description: 'Set the alt text for the avatar. Currently used als alt for image',
       type: {
@@ -111,7 +111,8 @@ const meta = {
     borderRadius: '50%',
     backgroundColor: 'red',
     color: 'white',
-    altText: '',
+    src: '',
+    alt: '',
     privateProfile: true,
   },
   tags: ['autodocs'],
