@@ -6,8 +6,8 @@ import { PropsWithChildren } from 'react';
 import '@kernteam/components-css/button/index.scss';
 
 const Button = ({ children }: PropsWithChildren<{}>) => (
-  <button className="kernteam-button" type="button">
-    <span className="kernteam-button__text">{children}</span>
+  <button className="example-button" type="button">
+    <span className="example-button__text">{children}</span>
   </button>
 );
 
@@ -44,5 +44,5 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
-  name: 'kernteam button',
+  name: 'Example button',
 };

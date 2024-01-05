@@ -1,7 +1,11 @@
-// import '@nl-design-system-unstable/voorbeeld-design-tokens/src/font.js';
-import '@nl-design-system-unstable/voorbeeld-design-tokens/dist/index.css';
+/* eslint-env node */
+import '@kernteam/design-tokens/dist/index.css';
+import '@kernteam/font/src/index.scss';
 import { defineCustomElements } from '@kernteam/web-components-stencil/loader/index.js';
 import type { Preview, StoryContext } from '@storybook/react';
+import prettierBabel from 'prettier/parser-babel';
+import prettier from 'prettier/standalone';
+import ReactDOMServer from 'react-dom/server';
 
 defineCustomElements();
 
@@ -15,7 +19,7 @@ const preview: Preview = {
       storyContext.parameters['args'] = storyContext.args;
 
       return (
-        <div className="voorbeeld-theme">
+        <div className="kernteam-theme">
           <Story />
         </div>
       );
@@ -53,6 +57,31 @@ const preview: Preview = {
     },
     options: {
       panelPosition: 'right',
+    },
+    // Configure @storybook/addon-docs
+    docs: {
+      // Show code by default.
+      // Stories without concise code snippets can hide the code at Story level.
+      source: {
+        state: 'open',
+      },
+      transformSource: (src: string, storyContext: any): string => {
+        // Ensure valid HTML in the Preview source
+        const render =
+          typeof storyContext.component === 'function'
+            ? storyContext.component
+            : typeof storyContext.component?.render === 'function'
+            ? storyContext.component?.render
+            : null;
+
+        if (render) {
+          return prettier.format(ReactDOMServer.renderToStaticMarkup(render(storyContext.args)), {
+            parser: 'babel',
+            plugins: [prettierBabel],
+          });
+        }
+        return src;
+      },
     },
   },
 };

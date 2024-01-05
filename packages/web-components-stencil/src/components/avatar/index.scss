@@ -1,0 +1,9 @@
+@import "~@kernteam/components-css/avatar/index";
+
+:host {
+  display: inline-block;
+}
+
+:host([hidden]) {
+  display: none !important;
+}
