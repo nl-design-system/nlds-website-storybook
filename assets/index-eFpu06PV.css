@@ -1,4 +1,0 @@
-/**
- * @license EUPL-1.2
- * Copyright (c) 2021 Community for NL Design System
- */.kernteam-avatar{align-items:center;background-color:var(--kernteam-avatar-background-color);block-size:var(--kernteam-avatar-size, 38px);border:none;border-radius:var(--kernteam-avatar-border-radius);color:var(--kernteam-avatar-color);display:flex;font-family:var(--kernteam-avatar-font-family);font-size:var(--kernteam-avatar-font-size);inline-size:var(--kernteam-avatar-size, 38px);justify-content:center;overflow:hidden;text-align:center}.kernteam-avatar__image{block-size:100%;inline-size:100%;object-fit:cover}.kernteam-avatar__icon,.kernteam-avatar__text{align-items:center;block-size:100%;display:flex;inline-size:100%;justify-content:center}
