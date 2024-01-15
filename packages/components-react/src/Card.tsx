@@ -1,7 +1,6 @@
 'use client';
 
-import { Heading2, Paragraph } from '@utrecht/component-library-react';
-import { Link } from '@utrecht/component-library-react';
+import { Heading2, Link, Paragraph } from '@utrecht/component-library-react';
 import clsx from 'clsx';
 import React, { FC, HTMLAttributes } from 'react';
 import './Card.css';
