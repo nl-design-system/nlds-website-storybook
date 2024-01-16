@@ -20,11 +20,10 @@ export const Card: FC<CardProps> = ({ description, title, link: { href }, ...pro
     <div {...props} className={clsx('utrecht-card', props.className)} onClick={() => linkRef.current?.click()}>
       <div className={'utrecht-card__content'}>
         <Heading2 className="utrecht-card__title">
-          <Link ref={linkRef} href={href} className={'utrecht-link utrecht-link--html-a'}>
-            {title}
-          </Link>
+          {title}
+          <Paragraph className="utrecht-card__body">{description}</Paragraph>
+          <Link ref={linkRef} href={href} className={'utrecht-link utrecht-link--html-a'}></Link>
         </Heading2>
-        <Paragraph className="utrecht-card__body">{description}</Paragraph>
       </div>
     </div>
   );
