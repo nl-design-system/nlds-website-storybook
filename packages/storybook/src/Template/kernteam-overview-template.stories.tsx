@@ -45,6 +45,7 @@ export const Richtlijnen: Story = {
             description="Tekst en taalgebruik in NL Design System"
             link={{
               href: 'http://localhost:6006/?path=/story/template-richtlijnen-kleuren--kleuren',
+              linktitle: 'Tekst en taalgebruik',
             }}
           ></Card>
         </UtrechtDocument>
