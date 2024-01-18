@@ -20,9 +20,6 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
-  title: 'React Component/Card',
-  id: 'KernteamCard',
-  component: Card,
   args: {
     title: 'Tekst en taalgebruik',
     description: 'Tekst en taalgebruik in NL Design System',
@@ -34,9 +31,6 @@ export const Default: Story = {
 };
 
 export const Hover: Story = {
-  title: 'React Component/Card',
-  id: 'KernteamCard',
-  component: Card,
   args: {
     title: 'Tekst en taalgebruik',
     description: 'Tekst en taalgebruik in NL Design System',
