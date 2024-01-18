@@ -1,0 +1,32 @@
+.kernteam-card {
+  background-color: blue;
+  background-color: #fff;
+  border: 2px solid #f5f5f5;
+  border-radius: 0;
+  box-shadow: 4px 4px #d1d1d1;
+  color: #00303d;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-block: 24px;
+  padding-inline: 16px;
+}
+
+.kernteam-card:hover {
+  --utrecht-link-text-decoration: underline;
+  --utrecht-link-text-decoration-thickness: var(--utrecht-link-hover-text-decoration-thickness);
+
+  cursor: pointer;
+}
+
+.kernteam-card__content {
+  padding-block-end: 1rem;
+  padding-block-start: 0;
+  padding-inline-end: 1rem;
+  padding-inline-start: 1rem;
+}
+
+.kernteam-link {
+  align-items: center;
+  display: flex;
+}
