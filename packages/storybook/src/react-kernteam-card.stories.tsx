@@ -19,7 +19,7 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const DefaultHover: Story = {
+export const Default: Story = {
   title: 'React Component/Card',
   id: 'KernteamCard',
   component: Card,
@@ -33,7 +33,7 @@ export const DefaultHover: Story = {
   },
 };
 
-export const HoverCard: Story = {
+export const Hover: Story = {
   title: 'React Component/Card',
   id: 'KernteamCard',
   component: Card,
