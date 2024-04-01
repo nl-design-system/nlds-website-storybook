@@ -59,7 +59,7 @@
     "rimraf": "5.0.5",
     "sass": "1.71.1",
     "sass-loader": "14.1.1",
-    "storybook": "7.6.17",
+    "storybook": "8.0.5",
     "style-loader": "3.3.4",
     "typescript": "5.4.2",
     "vite": "5.1.6",
