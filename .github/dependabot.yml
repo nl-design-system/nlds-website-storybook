@@ -1,7 +1,5 @@
 version: 2
 
-# Documentation:
-# https://docs.github.com/en/code-security/supply-chain-security/keeping-your-dependencies-updated-automatically/enabling-and-disabling-version-updates
 updates:
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -12,6 +10,14 @@ updates:
     schedule:
       interval: "monthly"
     versioning-strategy: "increase-if-necessary"
+    groups:
+      # Storybook dependencies should all have the same version, an older
+      # version of storybook will complain about @storybook/* versions if
+      # these lag behind
+      storybook:
+        patterns:
+          - "@storybook/*"
+          - "storybook"
     open-pull-requests-limit: 20
     reviewers:
       - "nl-design-system/kernteam-dependabot"
