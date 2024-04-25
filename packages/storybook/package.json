@@ -25,7 +25,7 @@
     "@kernteam/font": "workspace:*",
     "@kernteam/web-components-react": "workspace:*",
     "@kernteam/web-components-stencil": "workspace:*",
-    "@nl-design-system-unstable/nlds-design-tokens": "1.0.0-alpha.189",
+    "@nl-design-system-unstable/nlds-design-tokens": "1.0.0-alpha.202",
     "@nl-design-system-unstable/voorbeeld-design-tokens": "1.0.0-alpha.133",
     "@storybook/addon-a11y": "8.0.8",
     "@storybook/addon-actions": "8.0.8",
