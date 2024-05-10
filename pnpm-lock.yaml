@@ -235,8 +235,8 @@ importers:
         specifier: workspace:*
         version: link:../web-components-stencil
       '@nl-design-system-unstable/nlds-design-tokens':
-        specifier: 1.0.0-alpha.210
-        version: 1.0.0-alpha.210
+        specifier: 1.0.0-alpha.211
+        version: 1.0.0-alpha.211
       '@nl-design-system-unstable/voorbeeld-design-tokens':
         specifier: 1.0.0-alpha.137
         version: 1.0.0-alpha.137
@@ -3012,8 +3012,8 @@ packages:
     dev: true
     optional: true
 
-  /@nl-design-system-unstable/nlds-design-tokens@1.0.0-alpha.210:
-    resolution: {integrity: sha512-BZGQ91cRjl2B9m2L7LB09R3Y8RD8tbBLXD5/nhxQxS2TmeWJrLLn1h5MpH2rG5deoaEkSANhG+bCIoLWYPurIg==}
+  /@nl-design-system-unstable/nlds-design-tokens@1.0.0-alpha.211:
+    resolution: {integrity: sha512-2R6sr7W5ds73c/yXOhyNB+GgwPpT0OM1+yy5SMhqt8QzKZynBgnM9nkQcp4GUbtDgcVlTw5CMLi3OZJXl4sB0Q==}
     dependencies:
       '@fontsource/fira-sans': 5.0.19
       '@fontsource/source-sans-pro': 5.0.8
