@@ -38,7 +38,7 @@
     "@storybook/react": "8.1.9",
     "@storybook/react-vite": "8.1.9",
     "@storybook/theming": "8.1.9",
-    "@tabler/icons-react": "3.6.0",
+    "@tabler/icons-react": "3.7.0",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@utrecht/component-library-react": "3.1.0",
