@@ -8,7 +8,8 @@
 }
 
 .utrecht-heading-1 {
-  --utrecht-heading-1-margin-block-start: 16px --utrecht-heading-1-margin-block-end: 16px;
+  --utrecht-heading-1-margin-block-start: 16px;
+  --utrecht-heading-1-margin-block-end: 16px;
 }
 
 .utrecht-unordered-list {
