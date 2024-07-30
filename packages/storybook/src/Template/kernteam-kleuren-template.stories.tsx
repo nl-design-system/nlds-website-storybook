@@ -17,7 +17,7 @@ import {
 import './kernteam-kleuren-template.css';
 
 const meta = {
-  title: 'Template/Kleuren',
+  title: 'Template/Richtlijnen/Kleuren',
   id: 'Template-Richtlijnen-Kleuren',
   parameters: {
     layout: 'fullscreen',
