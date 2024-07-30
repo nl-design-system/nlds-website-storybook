@@ -57,6 +57,3 @@ Thumbs.db
 yarn.lock
 package-lock.json
 !/package-lock.json
-
-# Ignore generated files from Stencil
-components.d.ts
