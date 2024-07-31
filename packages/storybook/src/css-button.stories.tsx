@@ -1,9 +1,9 @@
 /* @license CC0-1.0 */
 
-import readme from '@kernteam/components-css/button/README.md?raw';
+import readme from '@nl-design-system-kernteam/components-css/button/README.md?raw';
 import type { Meta, StoryObj } from '@storybook/react';
 import { PropsWithChildren } from 'react';
-import '@kernteam/components-css/button/index.scss';
+import '@nl-design-system-kernteam/components-css/button/index.scss';
 
 const Button = ({ children }: PropsWithChildren<{}>) => (
   <button className="kernteam-button" type="button">

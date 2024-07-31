@@ -3,7 +3,7 @@
   "author": "Community for NL Design System",
   "description": "React component library for the Example repository, based on the NL Design System architecture",
   "license": "EUPL-1.2",
-  "name": "@kernteam/components-react",
+  "name": "@nl-design-system-kernteam/components-react",
   "keywords": [
     "nl-design-system"
   ],
@@ -42,7 +42,7 @@
     "@babel/preset-react": "7.24.7",
     "@babel/preset-typescript": "7.24.7",
     "@babel/runtime": "7.24.7",
-    "@kernteam/components-css": "workspace:*",
+    "@nl-design-system-kernteam/components-css": "workspace:*",
     "@rollup/plugin-babel": "6.0.4",
     "@rollup/plugin-commonjs": "26.0.1",
     "@rollup/plugin-node-resolve": "15.2.3",
