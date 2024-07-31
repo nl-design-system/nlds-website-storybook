@@ -3,7 +3,7 @@
   "author": "Community for NL Design System",
   "description": "Design system based on the NL Design System architecture",
   "license": "EUPL-1.2",
-  "name": "@kernteam/nldesignsystem.nl-storybook",
+  "name": "@nl-design-system-kernteam/nldesignsystem.nl-storybook",
   "keywords": [
     "nl-design-system"
   ],

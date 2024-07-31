@@ -117,7 +117,7 @@ importers:
       '@babel/runtime':
         specifier: 7.24.7
         version: 7.24.7
-      '@kernteam/components-css':
+      '@nl-design-system-kernteam/components-css':
         specifier: workspace:*
         version: link:../components-css
       '@rollup/plugin-babel':
@@ -219,16 +219,16 @@ importers:
       '@etchteam/storybook-addon-status':
         specifier: 5.0.0
         version: 5.0.0
-      '@kernteam/assets':
+      '@nl-design-system-kernteam/assets':
         specifier: workspace:*
         version: link:../../proprietary/assets
-      '@kernteam/components-css':
+      '@nl-design-system-kernteam/components-css':
         specifier: workspace:*
         version: link:../components-css
-      '@kernteam/design-tokens':
+      '@nl-design-system-kernteam/design-tokens':
         specifier: workspace:*
         version: link:../../proprietary/design-tokens
-      '@kernteam/font':
+      '@nl-design-system-kernteam/font':
         specifier: workspace:*
         version: link:../../proprietary/font
       '@nl-design-system-unstable/nlds-design-tokens':

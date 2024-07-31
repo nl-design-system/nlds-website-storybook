@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import { ButtonHTMLAttributes, ForwardedRef, forwardRef, PropsWithChildren } from 'react';
-import '@kernteam/components-css/button/index.scss';
+import '@nl-design-system-kernteam/components-css/button/index.scss';
 
 export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
