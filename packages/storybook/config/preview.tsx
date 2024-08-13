@@ -1,12 +1,10 @@
 // import '@nl-design-system-unstable/voorbeeld-design-tokens/src/font.js';
 import '@nl-design-system-kernteam/design-tokens/dist/index.css';
 import type { Preview } from '@storybook/react';
-import { Document } from '@utrecht/component-library-react/dist/css-module';
-import * as React from 'react';
 import { ParameterArgsDecorator } from './ParameterArgsDecorator';
 
 const preview: Preview = {
-  decorators: [ParameterArgsDecorator, (Story: any) => <Document>{Story()}</Document>],
+  decorators: [ParameterArgsDecorator],
   parameters: {
     controls: { expanded: false },
     options: {
