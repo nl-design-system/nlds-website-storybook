@@ -1,0 +1,40 @@
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2021 Community for NL Design System
+ */
+
+.kernteam-side-navigation {
+  block-size: 320px;
+  border-block-end: 1px solid #dadde1;
+  display: flex;
+  flex-direction: column;
+}
+
+.kernteam-side-navigation-nav {
+  flex-grow: 1;
+}
+
+.kernteam-menu-list {
+  list-style: none;
+  padding-block-end: 0;
+  padding-block-start: 0;
+}
+
+.kernteam-menu-link {
+  --utrecht-link-color: #0070a3;
+  --utrecht-link-text-decoration: none;
+
+  display: flex;
+  flex: 1;
+  line-height: 1.5;
+  margin-inline-start: 4px;
+  padding-block: 0.75rem;
+}
+
+.kernteam-menu-link--active {
+  background-color: #0000000d;
+  border-inline-start-color: #148839;
+  border-inline-start-style: solid;
+  border-inline-start-width: 4px;
+  margin-inline-start: 0;
+}
