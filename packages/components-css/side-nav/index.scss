@@ -31,10 +31,18 @@
   line-height: 1.5;
   margin-inline-start: 4px;
   padding-block: 0.75rem;
+  padding-inline: 0.75rem;
 }
 
 .kernteam-menu-link--active {
   background-color: #0000000d;
+  border-inline-start-color: #148839;
+  border-inline-start-style: solid;
+  border-inline-start-width: 4px;
+  margin-inline-start: 0;
+}
+
+.kernteam-menu-link:hover {
   border-inline-start-color: #148839;
   border-inline-start-style: solid;
   border-inline-start-width: 4px;
