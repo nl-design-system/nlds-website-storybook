@@ -1,0 +1,9 @@
+{
+  "kernteam": {
+    "side-navigation": {
+      "border-inline-end-color": { "value": "#dadde1" },
+      "border-inline-end-width": { "value": "1px" },
+      "border-inline-end-style": { "value": "solid" }
+    }
+  }
+}

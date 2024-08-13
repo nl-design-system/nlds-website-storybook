@@ -3,53 +3,12 @@
 import readme from '@nl-design-system-kernteam/components-css/side-nav/README.md?raw';
 import type { Meta, StoryObj } from '@storybook/react';
 import '@nl-design-system-kernteam/components-css/side-nav/index.scss';
-import { IconArrowBarToLeft } from '@tabler/icons-react';
-import { Button, Link } from '@utrecht/component-library-react/dist/css-module';
-
-const SideNav = () => (
-  <div className="kernteam-side-navigation">
-    <Button appearance={'subtle-button'}>
-      <IconArrowBarToLeft />
-      Verberg
-    </Button>
-    <div>
-      <nav className={'kernteam-side-navigation-nav'}>
-        <ul className={'kernteam-menu-list'}>
-          <li>
-            <Link className={'kernteam-menu-link kernteam-menu-link--active'} aria-current="page" href="#">
-              Introductie
-            </Link>
-          </li>
-          <li>
-            <Link className={'kernteam-menu-link'} href="#">
-              Estafettemodel
-            </Link>
-          </li>
-          <li>
-            <Link className={'kernteam-menu-link'} href="#">
-              Design Tokens
-            </Link>
-          </li>
-          <li>
-            <Link className={'kernteam-menu-link'} href="#">
-              Componenten bijdragen
-            </Link>
-          </li>
-          <li>
-            <Link className={'kernteam-menu-link'} href="#">
-              Voor designers
-            </Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-);
+import { SideNavigation } from '../../components-react/src/SideNavigation';
 
 const meta = {
   title: 'CSS Component/Side Nav',
   id: 'css-side-nav',
-  component: SideNav,
+  component: SideNavigation,
   argTypes: {
     children: {
       name: 'Content',
@@ -72,12 +31,45 @@ const meta = {
       },
     },
   },
-} satisfies Meta<typeof SideNav>;
+} satisfies Meta<typeof SideNavigation>;
 
 export default meta;
 
 type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
-  name: 'kernteam button',
+  args: {
+    listItems: [
+      {
+        label: 'Introductie',
+        href: '/',
+      },
+      {
+        label: 'Stijl',
+        href: '/',
+      },
+      {
+        label: 'Formulieren',
+        href: '/',
+        children: [
+          {
+            label: 'Introductie formulieren',
+            href: '/',
+          },
+          {
+            label: 'Buttons',
+            href: '/',
+          },
+          {
+            label: 'Bevestigingspagina',
+            href: '/',
+          },
+        ],
+      },
+      {
+        label: 'WCAG',
+        href: '/',
+      },
+    ],
+  },
 };
