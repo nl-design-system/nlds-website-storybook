@@ -1,0 +1,18 @@
+{
+  "kernteam": {
+    "menu-list": {
+      "link": {
+        "border-inline-start-color:": { "value": "#148839" },
+        "border-inline-start-width": { "value": "4px" },
+        "border-inline-start-style": { "value": "solid" },
+        "color": { "value": "#0070a3" },
+        "current": {
+          "background-color": { "value": "rgba(0, 0, 0, 0.05)" }
+        },
+        "hover": {
+          "background-color": { "value": "rgba(0, 0, 0, 0.05)" }
+        }
+      }
+    }
+  }
+}
