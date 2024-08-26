@@ -1,12 +1,11 @@
 /* @license CC0-1.0 */
 
-import readme from '@nl-design-system-kernteam/components-css/side-nav/README.md?raw';
+import readme from '@nl-design-system-kernteam/components-css/side-navigation/README.md?raw';
 import type { Meta, StoryObj } from '@storybook/react';
-import '@nl-design-system-kernteam/components-css/side-nav/index.scss';
-import { SideNavigation } from '../../components-react/src/SideNavigation';
+import { SideNavigation } from '../../components-react/src';
 
 const meta = {
-  title: 'CSS Component/Side Nav',
+  title: 'CSS Component/Side Navigation',
   id: 'css-side-nav',
   component: SideNavigation,
   argTypes: {

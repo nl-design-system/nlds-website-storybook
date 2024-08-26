@@ -2,8 +2,7 @@ import { IconArrowBarToLeft, IconArrowBarToRight, IconChevronDown, IconChevronUp
 import { Button, Link } from '@utrecht/component-library-react/dist/css-module';
 import clsx from 'clsx';
 import { HTMLAttributes, PropsWithChildren, useState } from 'react';
-import '@nl-design-system-kernteam/components-css/menu-list/index.scss';
-import '@nl-design-system-kernteam/components-css/side-bar/index.scss';
+import '@nl-design-system-kernteam/components-css/side-navigation/index.scss';
 
 export interface SideNavigationProps extends HTMLAttributes<HTMLElement> {
   listItems: MenuListItemProps[];
@@ -18,7 +17,11 @@ export const SideNavigation = ({ className, listItems, ...restProps }: SideNavig
 
   return (
     <div className={sideNavClassname} {...restProps}>
-      <Button appearance={'subtle-button'} onClick={() => setOpen(!open)}>
+      <Button
+        className={'kernteam-side-navigation__toggle-button'}
+        appearance={'subtle-button'}
+        onClick={() => setOpen(!open)}
+      >
         {open ? (
           <>
             <IconArrowBarToLeft />

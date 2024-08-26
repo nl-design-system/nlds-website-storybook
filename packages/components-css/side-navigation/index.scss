@@ -3,6 +3,33 @@
  * Copyright (c) 2024 Community for NL Design System
  */
 
+.kernteam-side-navigation {
+  border-inline-end-color: var(--kernteam-side-navigation-border-inline-end-color);
+  border-inline-end-style: var(--kernteam-side-navigation-border-inline-end-style);
+  border-inline-end-width: var(--kernteam-side-navigation-border-inline-end-width);
+  display: flex;
+  flex-direction: column;
+  inline-size: var(--kernteam-side-navigation-inline-size);
+  transition: inline-size 200ms ease;
+}
+
+.kernteam-side-navigation--hidden {
+  inline-size: 48px;
+}
+
+.kernteam-side-navigation--hidden .kernteam-side-navigation__content {
+  overflow-x: hidden;
+  visibility: hidden;
+}
+
+.kernteam-side-navigation-nav {
+  flex-grow: 1;
+}
+
+.kernteam-side-navigation__toggle-button {
+  padding-inline-start: var(--kernteam-side-navigation-toggle-button-padding-inline-start);
+}
+
 .kernteam-menu-list {
   --utrecht-link-color: var(--kernteam-menu-list-link-color);
   --utrecht-link-text-decoration: none;

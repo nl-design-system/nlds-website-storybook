@@ -1,0 +1,27 @@
+{
+  "utrecht": {
+    "focus": {
+      "outline-width": {
+        "value": "{kernteam.focus.outline-width}"
+      },
+      "inverse-outline-color": {
+        "value": "{kernteam.focus.inverse-outline-color}"
+      },
+      "outline-color": {
+        "value": "{kernteam.focus.outline-color}"
+      },
+      "background-color": {
+        "value": "{kernteam.focus.background-color}"
+      },
+      "color": {
+        "value": "{kernteam.focus.color}"
+      },
+      "outline-style": {
+        "value": "{kernteam.focus.outline-style}"
+      },
+      "outline-offset": {
+        "value": "{kernteam.focus.outline-offset}"
+      }
+    }
+  }
+}
