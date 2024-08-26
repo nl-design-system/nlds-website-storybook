@@ -62,12 +62,32 @@ export const Default: Story = {
           {
             label: 'Bevestigingspagina',
             href: '/',
+            children: [
+              {
+                label: 'Voorbeelden',
+                href: '/',
+              },
+              {
+                label: 'Uitleg',
+                href: '/',
+              },
+            ],
           },
         ],
       },
       {
         label: 'WCAG',
         href: '/',
+        children: [
+          {
+            label: 'Introductie WCAG',
+            href: '/',
+          },
+          {
+            label: 'Lorum Ipsum',
+            href: '/',
+          },
+        ],
       },
     ],
   },

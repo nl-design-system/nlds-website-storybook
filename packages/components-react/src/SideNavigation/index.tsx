@@ -54,9 +54,9 @@ export const MenuListItem = (props: MenuListItemProps) => {
   const [open, setOpen] = useState(false);
 
   return (
-    <li>
-      <div className={'kernteam-menu-list__item'}>
-        <Link className={'kernteam-menu-list__link'} href={props.href}>
+    <li className={'kernteam-menu-list-item'}>
+      <div className={'kernteam-menu-list-item__label'}>
+        <Link className={'kernteam-menu-list-item__link'} href={props.href}>
           {props.label}
         </Link>
         {props.children && (
