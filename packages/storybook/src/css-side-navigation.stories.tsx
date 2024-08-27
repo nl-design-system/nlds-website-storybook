@@ -8,20 +8,6 @@ const meta = {
   title: 'CSS Component/Side Navigation',
   id: 'css-side-nav',
   component: SideNavigation,
-  argTypes: {
-    children: {
-      name: 'Content',
-      description: 'Button text',
-      type: {
-        name: 'string',
-        required: true,
-      },
-      defaultValue: '',
-    },
-  },
-  args: {
-    children: 'Opslaan en verder',
-  },
   tags: ['autodocs'],
   parameters: {
     docs: {
@@ -50,7 +36,7 @@ export const Default: Story = {
       {
         label: 'Formulieren',
         href: '/',
-        children: [
+        subMenuListItems: [
           {
             label: 'Introductie formulieren',
             href: '/',
@@ -62,7 +48,7 @@ export const Default: Story = {
           {
             label: 'Bevestigingspagina',
             href: '/',
-            children: [
+            subMenuListItems: [
               {
                 label: 'Voorbeelden',
                 href: '/',
@@ -78,7 +64,7 @@ export const Default: Story = {
       {
         label: 'WCAG',
         href: '/',
-        children: [
+        subMenuListItems: [
           {
             label: 'Introductie WCAG',
             href: '/',
