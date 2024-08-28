@@ -4,5 +4,44 @@
  */
 
 .kernteam-sidebar {
+  --kernteam-menu-list-link-border-inline-start-color: white;
+  --kernteam-menu-list-link-color: white;
+  --kernteam-menu-list-link-current-background-color: #0d1f2a;
+
   background-color: #004152;
+  color: white;
+  min-inline-size: 83vw;
+}
+
+.kernteam-sidebar__header {
+  align-items: center;
+  background-color: #0d1f2a;
+  display: flex;
+  justify-content: space-between;
+  min-block-size: 64px;
+}
+
+.kernteam-sidebar__header-button {
+  --utrecht-button-color: #fff;
+  --utrecht-button-hover-color: #fff;
+  --utrecht-button-font-size: 18px;
+  --utrecht-button-min-block-size: 100%;
+}
+
+.kernteam-sidebar__header-button:hover {
+  --utrecht-button-hover-color: #fff;
+
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.kernteam-sidebar__title {
+  font-size: 28px;
+  margin-block-end: 48px;
+  padding-inline-start: 20px;
+}
+
+.kernteam-sidebar__content {
+  padding-block-start: 16px;
 }

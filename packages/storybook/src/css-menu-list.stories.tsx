@@ -2,6 +2,7 @@
 
 import readme from '@nl-design-system-kernteam/components-css/menu-list/README.md?raw';
 import type { Meta, StoryObj } from '@storybook/react';
+import { menuListItems } from './exampleData';
 import { MenuList } from '../../components-react/src/MenuList';
 
 const meta = {
@@ -21,60 +22,6 @@ const meta = {
 export default meta;
 
 type Story = StoryObj<typeof meta>;
-
-const menuListItems = [
-  {
-    label: 'Introductie',
-    href: '/',
-  },
-  {
-    label: 'Stijl',
-    href: '/',
-    current: true,
-  },
-  {
-    label: 'Formulieren',
-    href: '/',
-    subMenuListItems: [
-      {
-        label: 'Introductie formulieren',
-        href: '/',
-      },
-      {
-        label: 'Buttons',
-        href: '/',
-      },
-      {
-        label: 'Bevestigingspagina',
-        href: '/',
-        subMenuListItems: [
-          {
-            label: 'Voorbeelden',
-            href: '/',
-          },
-          {
-            label: 'Uitleg',
-            href: '/',
-          },
-        ],
-      },
-    ],
-  },
-  {
-    label: 'WCAG',
-    href: '/',
-    subMenuListItems: [
-      {
-        label: 'Introductie WCAG',
-        href: '/',
-      },
-      {
-        label: 'Lorum Ipsum',
-        href: '/',
-      },
-    ],
-  },
-];
 
 export const Default: Story = {
   args: {

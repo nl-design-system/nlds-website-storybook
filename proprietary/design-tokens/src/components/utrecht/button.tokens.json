@@ -44,6 +44,9 @@
           "value": "{kernteam.focus.color}"
         }
       },
+      "hover": {
+        "background-color": { "value": "#004152" }
+      },
       "primary-action": {
         "border-color": {
           "value": "#148839"

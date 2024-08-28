@@ -2,6 +2,7 @@
 
 import readme from '@nl-design-system-kernteam/components-css/side-navigation/README.md?raw';
 import type { Meta, StoryObj } from '@storybook/react';
+import { menuListItems } from './exampleData';
 import { SideNavigation } from '../../components-react/src';
 
 const meta = {
@@ -24,57 +25,6 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    listItems: [
-      {
-        label: 'Introductie',
-        href: '/',
-      },
-      {
-        label: 'Stijl',
-        href: '/',
-      },
-      {
-        label: 'Formulieren',
-        href: '/',
-        subMenuListItems: [
-          {
-            label: 'Introductie formulieren',
-            href: '/',
-          },
-          {
-            label: 'Buttons',
-            href: '/',
-          },
-          {
-            label: 'Bevestigingspagina',
-            href: '/',
-            subMenuListItems: [
-              {
-                label: 'Voorbeelden',
-                href: '/',
-              },
-              {
-                label: 'Uitleg',
-                href: '/',
-              },
-            ],
-          },
-        ],
-      },
-      {
-        label: 'WCAG',
-        href: '/',
-        subMenuListItems: [
-          {
-            label: 'Introductie WCAG',
-            href: '/',
-          },
-          {
-            label: 'Lorum Ipsum',
-            href: '/',
-          },
-        ],
-      },
-    ],
+    listItems: menuListItems,
   },
 };
