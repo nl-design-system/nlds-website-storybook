@@ -5,7 +5,7 @@
 This repository contains components that are used for nldesignsystem.nl. They are organised using [Storybook](https://storybook.js.org/).
 
 > [!NOTE]
-> This is not the official source code of nldesignsystem.nl, that's in [nl-design-system/docummentatie](https://github.com/nl-design-system/documentatie).
+> This is not the official source code of nldesignsystem.nl, that's in [nl-design-system/documentatie](https://github.com/nl-design-system/documentatie).
 
 For more info on NL Design System and learn about things happening in our open source community, join the `#nl-design-system` Slack via [praatmee.codefor.nl](https://praatmee.codefor.nl)!
 
