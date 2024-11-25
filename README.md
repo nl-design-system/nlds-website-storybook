@@ -1,13 +1,13 @@
 <!-- @license CC0-1.0 -->
 
-# nldesignsystem.nl-storybook
+# Components for nldesignsystem.nl
 
-This is template of the page ["Kleuren"](https://nldesignsystem.nl/richtlijnen/stijl/kleuren)
-made with web-components where possible. this template is made in storybook.
+This repository contains components that are used for nldesignsystem.nl. They are organised using [Storybook](https://storybook.js.org/).
 
-!note: this is not the official source code of nldesignsystem.nl, you can find it here <https://github.com/nl-design-system/documentatie> !
+> [!NOTE]
+> This is not the official source code of nldesignsystem.nl, that's in [nl-design-system/docummentatie](https://github.com/nl-design-system/documentatie).
 
-For more info about the NL Design System and learn about things happening in our open source community, join the `#nl-design-system` Slack via [praatmee.codefor.nl](https://praatmee.codefor.nl)!
+For more info on NL Design System and learn about things happening in our open source community, join the `#nl-design-system` Slack via [praatmee.codefor.nl](https://praatmee.codefor.nl)!
 
 ## Run storybook
 
