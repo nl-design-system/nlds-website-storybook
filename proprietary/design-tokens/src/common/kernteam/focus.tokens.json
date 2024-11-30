@@ -1,0 +1,27 @@
+{
+  "kernteam": {
+    "focus": {
+      "background-color": {
+        "value": "#deff00"
+      },
+      "color": {
+        "value": "#0D1F2A"
+      },
+      "outline-color": {
+        "value": "#deff00"
+      },
+      "inverse-outline-color": {
+        "value": "#0D1F2A"
+      },
+      "outline-style": {
+        "value": "dotted"
+      },
+      "outline-width": {
+        "value": "2px"
+      },
+      "outline-offset": {
+        "value": "0"
+      }
+    }
+  }
+}

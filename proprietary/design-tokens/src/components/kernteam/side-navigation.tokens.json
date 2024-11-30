@@ -1,0 +1,13 @@
+{
+  "kernteam": {
+    "side-navigation": {
+      "border-inline-end-color": { "value": "#dadde1" },
+      "border-inline-end-width": { "value": "1px" },
+      "border-inline-end-style": { "value": "solid" },
+      "inline-size": { "value": "clamp(20rem, 30rem, 30vw)" },
+      "toggle-button": {
+        "padding-inline-start": { "value": "12px" }
+      }
+    }
+  }
+}
