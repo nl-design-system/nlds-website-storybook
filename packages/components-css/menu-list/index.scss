@@ -1,0 +1,84 @@
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2024 Community for NL Design System
+ */
+
+.kernteam-menu-list {
+  --utrecht-link-color: var(--kernteam-menu-list-link-color);
+  --utrecht-link-text-decoration: none;
+  --utrecht-button-subtle-color: var(--utrecht-link-color);
+  --utrecht-button-focus-color: var(--kernteam-focus-color);
+  --utrecht-button-icon-size: 28px;
+
+  display: block;
+  list-style: none;
+  padding-block-end: 0;
+  padding-block-start: 0;
+  padding-inline-end: 0;
+  padding-inline-start: 0;
+}
+
+.kernteam-menu-list-item__label {
+  align-items: center;
+  display: inline-flex;
+  inline-size: 100%;
+}
+
+.kernteam-menu-list-item__label:hover {
+  background-color: var(--kernteam-menu-list-link-hover-background-color);
+}
+
+.kernteam-menu-list__icon-button {
+  cursor: pointer;
+}
+
+.kernteam-menu-list-item__link {
+  display: flex;
+  flex: 1;
+  line-height: 1.5;
+  margin-inline-start: 4px;
+  padding-block: 0.75rem;
+  padding-inline: 0.75rem;
+}
+
+.kernteam-menu-list-item__link--current {
+  background-color: var(--kernteam-menu-list-link-current-background-color);
+  border-inline-start-color: var(--kernteam-menu-list-link-border-inline-start-color);
+  border-inline-start-style: var(--kernteam-menu-list-link-border-inline-start-style);
+  border-inline-start-width: var(--kernteam-menu-list-link-border-inline-start-width);
+  margin-inline-start: 0;
+}
+
+.kernteam-menu-list-item__link:hover {
+  border-inline-start-color: var(--kernteam-menu-list-link-border-inline-start-color);
+  border-inline-start-style: var(--kernteam-menu-list-link-border-inline-start-style);
+  border-inline-start-width: var(--kernteam-menu-list-link-border-inline-start-width);
+  margin-inline-start: 0;
+}
+
+.kernteam-menu-list-item__link:focus-visible {
+  outline: var(--kernteam-focus-outline-width) var(--kernteam-focus-outline-style) var(--kernteam-focus-outline-color);
+}
+
+.kernteam-menu-list .kernteam-menu-list .kernteam-menu-list-item__link {
+  padding-inline-start: 24px;
+}
+
+.kernteam-menu-list .kernteam-menu-list .kernteam-menu-list .kernteam-menu-list-item__link {
+  padding-inline-start: 40px;
+}
+
+/* HACK: these fixes need to be made in utrecht too, or in a button implementation based on Utrecht CSS just for the website */
+.utrecht-button:focus {
+  background-color: var(--_utrecht-button-background-color) !important;
+  border-color: var(--_utrecht-button-border-color) !important;
+  color: var(--_utrecht-button-color) !important;
+  scale: var(--utrecht-button-scale, 1) !important;
+}
+
+.utrecht-button:focus-visible {
+  background-color: var(--_utrecht-button-focus-background-color) !important;
+  border-color: var(--_utrecht-button-focus-border-color) !important;
+  color: var(--_utrecht-button-focus-color) !important;
+  scale: var(--utrecht-button-focus-scale, 1) !important;
+}

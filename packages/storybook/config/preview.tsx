@@ -1,5 +1,5 @@
 // import '@nl-design-system-unstable/voorbeeld-design-tokens/src/font.js';
-import '@nl-design-system-unstable/voorbeeld-design-tokens/dist/index.css';
+import '@nl-design-system-kernteam/design-tokens/dist/index.css';
 import type { Preview } from '@storybook/react';
 import { ParameterArgsDecorator } from './ParameterArgsDecorator';
 

@@ -1,0 +1,102 @@
+{
+  "utrecht": {
+    "button": {
+      "color": {
+        "value": "#0D1F2A"
+      },
+      "font-weight": {
+        "value": "600"
+      },
+      "font-size": {
+        "value": "20px"
+      },
+      "border-radius": {
+        "value": "0"
+      },
+      "line-height": {
+        "value": "1"
+      },
+      "padding-block-start": {
+        "value": "8px"
+      },
+      "padding-block-end": {
+        "value": "8px"
+      },
+      "padding-inline-start": {
+        "value": "16px"
+      },
+      "padding-inline-end": {
+        "value": "16px"
+      },
+      "icon": {
+        "size": {
+          "value": "32px"
+        },
+        "gap": {
+          "value": "8px"
+        }
+      },
+      "focus": {
+        "background-color": {
+          "value": "{kernteam.focus.background-color}"
+        },
+        "color": {
+          "value": "{kernteam.focus.color}"
+        }
+      },
+      "hover": {
+        "background-color": { "value": "#004152" }
+      },
+      "primary-action": {
+        "border-color": {
+          "value": "#148839"
+        },
+        "background-color": {
+          "value": "#148839"
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "hover": {},
+        "focus": {
+          "background-color": {
+            "value": "{kernteam.focus.background-color}"
+          },
+          "color": {
+            "value": "{kernteam.focus.color}"
+          }
+        }
+      },
+      "secondary-action": {
+        "background-color": {
+          "value": "#ffffff"
+        },
+        "border-color": {
+          "value": "#148839"
+        },
+        "color": {
+          "value": "#148839"
+        },
+        "hover": {},
+        "focus": {
+          "background-color": {
+            "value": "{kernteam.focus.background-color}"
+          },
+          "color": {
+            "value": "{kernteam.focus.color}"
+          }
+        }
+      },
+      "subtle": {
+        "focus": {
+          "background-color": {
+            "value": "{kernteam.focus.background-color}"
+          },
+          "color": {
+            "value": "{kernteam.focus.color}"
+          }
+        }
+      }
+    }
+  }
+}

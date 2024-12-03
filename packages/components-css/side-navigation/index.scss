@@ -1,0 +1,46 @@
+/**
+ * @license EUPL-1.2
+ * Copyright (c) 2024 Community for NL Design System
+ */
+
+.kernteam-side-navigation {
+  border-inline-end-color: var(--kernteam-side-navigation-border-inline-end-color);
+  border-inline-end-style: var(--kernteam-side-navigation-border-inline-end-style);
+  border-inline-end-width: var(--kernteam-side-navigation-border-inline-end-width);
+  display: flex;
+  flex-direction: column;
+  inline-size: var(--kernteam-side-navigation-inline-size);
+  transition: inline-size 200ms ease;
+}
+
+.kernteam-side-navigation--hidden {
+  inline-size: 48px;
+}
+
+.kernteam-side-navigation--hidden .kernteam-side-navigation__content {
+  overflow-x: hidden;
+  visibility: hidden;
+}
+
+.kernteam-side-navigation-nav {
+  flex-grow: 1;
+}
+
+.kernteam-side-navigation__toggle-button {
+  padding-inline-start: var(--kernteam-side-navigation-toggle-button-padding-inline-start);
+}
+
+/* HACK: these fixes need to be made in utrecht too, or in a button implementation based on Utrecht CSS just for the website */
+.utrecht-button:focus {
+  background-color: var(--_utrecht-button-background-color) !important;
+  border-color: var(--_utrecht-button-border-color) !important;
+  color: var(--_utrecht-button-color) !important;
+  scale: var(--utrecht-button-scale, 1) !important;
+}
+
+.utrecht-button:focus-visible {
+  background-color: var(--_utrecht-button-focus-background-color) !important;
+  border-color: var(--_utrecht-button-focus-border-color) !important;
+  color: var(--_utrecht-button-focus-color) !important;
+  scale: var(--utrecht-button-focus-scale, 1) !important;
+}
